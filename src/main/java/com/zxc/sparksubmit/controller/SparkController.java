@@ -26,6 +26,8 @@ public class SparkController {
         return "appInfo";
     }
 
+
+
     @RequestMapping(value = "/submit")
     @ResponseBody
     public String Submit(@RequestBody SparkAppPara sparkAppPara) throws IOException, InterruptedException {
